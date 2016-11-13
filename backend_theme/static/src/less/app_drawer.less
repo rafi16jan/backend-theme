@@ -6,7 +6,7 @@
     background-color: @dropdown-bg;
     border: 0px solid @dropdown-fallback-border; // IE8 fallback
     border: 0px solid @dropdown-border;
-	border-radius: 0px !important;
+        border-radius: 0px !important;
 //    -webkit-border-radius: @border-radius-base;
 //    -moz-border-radius: @border-radius-base;
    border-radius: @border-radius-base;
@@ -80,42 +80,42 @@
 
 /*.app-drawer-toggle {
     background-color: transparent;
-	border: none;
+        border: none;
 }*/
 
 .app-drawer-toggle {
     color: #fff;
-    background-color: #7c7bad;
-    border-color: #7c7bad;
+    background-color: @brand-primary;
+    border-color: @brand-primary;
 }
 
 .app-drawer-toggle:hover {
     color: #fff;
-    background-color: #7c7bad;
-    border-color: #7c7bad;
+    background-color: @brand-primary;
+    border-color: @brand-primary;
 }
 
 .app-drawer-toggle:active {
     color: #fff;
-    background-color: #7c7bad;
-    border-color: #7c7bad;
+    background-color: @brand-primary;
+    border-color: @brand-primary;
 }
 
 .app-drawer-toggle:focus {
     color: #fff;
-    background-color: #7c7bad;
-    border-color: #7c7bad;
+    background-color: @brand-primary;
+    border-color: @brand-primary;
 }
 
 .app-drawer-toggle.navbar-toggle {
-//	background-color: #ee3366;
-    background-color: #7c7bad;
+//      background-color: #ee3366;
+    background-color: @brand-primary;
     margin-left: 1em;
 }
 
 // Add background image
 .drawer-nav{
-	//background: transparent url('/backend_theme/static/src/img/material-background.jpg') no-repeat scroll center center / cover;
+        //background: transparent url('/backend_theme/static/src/img/material-background.jpg') no-repeat scroll center center / cover;
         background-color: rgba(33, 30, 30, 0.95);
 }
 
@@ -153,6 +153,11 @@
     background-color: #fff;
 }
 
+.o_form_view ul.oe_form_status li.oe_active > .arrow span, .o_form_view ul.oe_form_status_clickable li.oe_active > .arrow span {
+    background-image: none;
+    background-color: @brand-primary;
+}
+
 .o_form_view ul.oe_form_status li, .o_form_view ul.oe_form_status_clickable li {
     background-image: none;
     background-color: #fff;
@@ -160,6 +165,7 @@
 
 .o_form_view ul.oe_form_status li.oe_active, .o_form_view ul.oe_form_status_clickable li.oe_active {
     background-image: none;
+    background-color: @brand-primary;
 }
 
 .o_form_view .o_form_sheet_bg {
