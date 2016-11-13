@@ -3,7 +3,7 @@
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 
 {
-    "name": "Community Backend Theme",
+    "name": "Community Mobile Backend Theme",
     "summary": "Odoo 10.0 Community Backend Theme (based on Openworx Theme)",
     "version": "10.0.2.0.0",
     "category": "Themes/Backend",
